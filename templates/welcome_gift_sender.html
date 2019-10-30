@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+{% extends "blade_base.html" %}
+
+{% block title %}Thank you for your priceless gift!{% endblock %}
+
+{% block content %}
+
+<!-- ====&gt; STARTING &lt;========================= -->
+    <!--                  Header                   -->
+    <!-- ========================================= -->
+    <table class="full" background-color="#FFFFFF" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Header" mc:variant="Header">
+        <tr>
+          <td class="module2_bg_img" valign="top" style="background-size:cover;background-position:center;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="600" style="max-width:600px;font-size:0px;background:#858dac;" align="center">
+                  <table class="inner_tab" width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="30" style="max-height:30px;"></td>
+                    </tr>
+                    <!--   Title   -- START -->
+                    <tr>
+                        <td align="left" style="font-family:raleway, Arial, sans-serif;font-size:24px;font-weight:900;color:#ffffff;letter-spacing:0.5px;line-height:30px;" mc:edit="ava140219_2_1">
+                            Thank you for your priceless gift of mental health to {$gift->recipient_emailXXX}!
+                        </td>
+                    </tr>
+                    <!--   Title   --- END --->                    
+                    <tr>
+                        <td height="24" style="max-height:24px;"></td>
+                    </tr>
+                    <!--   Image   -- START -->
+                    <tr>
+                        <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/gift-of-health 600x300.png" alt="img" width="100%" style="display:block; line-height:0px; font-size:0px; border:1px solid #ffffff;" mc:edit="ava140219_10_2">
+                        </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                        <td height="24" style="max-height:24px;"></td>
+                    </tr>          
+                    
+                    <!--   Content   -- START -->
+                    <tr>
+                      <td align="left" style="font-family:'open sans', Arial, sans-serif;font-size:16px;color:#ffffff;line-height:22px;" mc:edit="ava140219_2_3">
+                        We have sent to {$gift->recipient_emailXXX} your gift of a <span style="text-transform: uppercase;">{$product->name}</span> subscription to Virtual EMDR!  
+                      </td>
+                    </tr>
+                    <!--   Content   --- END --->
+                    <tr>
+                        <td height="15" style="max-height:15px;"></td>
+                    </tr>
+                    <!--  Message   -- START -->
+                    <tr>
+                        <td width="400" align="left" style="font-family:'open sans', Arial, sans-serif;font-size:16px;color:#ffffff;line-height:22px;" mc:edit="ava140219_2_3">
+                        Your message:
+                        <p><span style="font-style:italic">{$gift->message}</span></p>            
+                        </td>
+                    </tr>
+                    <!--   Message   --- END --->
+                    <tr>
+                        <td height="18" style="max-height:18px;"></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="font-family:'open sans', Arial, sans-serif;font-size:14px;color:#ffffff;line-height:22px;" mc:edit="ava140219_2_3">
+                            Note: You have been charged a one-time amount of {$product->amountXXXX} for {$product->name}. This gift subscription does not auto-renew. Your recipient will be able to renew the subscription upon expiry.
+                        </td>
+                    <tr>
+                      <td height="50" style="max-height:50px;"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- ========================================= -->
+      <!--                  Header                   -->
+      <!-- ===========================&gt; ENDING &lt;==== -->
+
+      <!-- ====&gt; STARTING &lt;========================= -->
+    <!--               Three Column                -->
+    <!-- ========================================= -->
+    <table class="full" background-color="#FFFFFF" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Three Column" mc:variant="Three Column">
+        <tr>
+          <td align="center" class="module9_bg">
+            <table class="inner_tab" width="600" style="max-width:600px;" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="40" style="max-height:40px;"></td>
+              </tr>
+              <!--   Title   -- START -->
+              <tr>
+                <td align="center" style="font-family:Quicksand, Arial, sans-serif;font-size:24px;font-weight:700;color:#3c4876;line-height:30px" mc:edit="ava140219_9_1">
+                  Learn more about the Priceless Gift of Mental Health you have given to {$gift->recipient_emailXXX}
+                  <p><a href="https://virtualemdr.com" target="_blank"><img src="../static/images/blade_base/virtualemdr-light-logo.png" width="200" style="max-width: 200px; display:block; line-height:0px; font-size:0px; border:0px;"></a>
+                  </p>
+                </td>
+              </tr>
+              <!--   Title   --- END --->                  
+              <!--   Content   -- START -->
+              <tr>
+                <td align="center" style="font-family:'open sans', Arial, sans-serif;font-size:16px;color:#273462;line-height:24px;" mc:edit="ava140219_11_2">
+                    Virtual EMDR is a unique, online therapy program based on the science of Eye Movement Desensitization and Reprocessing (EMDR).
+                    <p>Thousands of people worldwide have used this program to effectively treat unresolved pain from:</p>
+                </td>
+              </tr>
+              <!--   Content   --- END --->
+              <tr>
+                <td height="15" style="max-height:15px;"></td>
+            </tr>                 
+              <tr>
+                <td>                     
+                  <!-- ======= SECTION : LEFT 1=======&gt; START -->
+                  <table width="90" style="max-width:90px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/trauma2.jpeg" width="90" style="max-width: 90px; display:block; line-height:0px; font-size:0px; border:0px;border-radius:50%" alt="Three Column Left" mc:edit="ava140219_9_2">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                        <td height="10" style="max-height:10px;"></td>
+                    </tr>                   
+                  </table>
+                  <!-- ======= SECTION : LEFT 1 =======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="12" style="max-width:12px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="25" style="max-height:25px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : LEFT 2=======&gt; START -->
+                  <table width="90" style="max-width:90px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                        <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/ptsd2.jpeg" width="90" style="max-width: 90px; display:block; line-height:0px; font-size:0px; border:0px;border-radius:50%" alt="Three Column Left" mc:edit="ava140219_9_2">
+                        </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                        <td height="10" style="max-height:10px;"></td>
+                    </tr>                   
+                    </table>
+                    <!-- ======= SECTION : LEFT 2 =======&gt;  END  -->
+                    <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                    <table width="12" style="max-width:12px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="25" style="max-height:25px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : MIDDLE 1=======&gt; START -->
+                  <table width="90" style="max-width:90px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/depression2.jpeg" width="90" style="max-width: 90px; display:block; line-height:0px; font-size:0px; border:0px;border-radius: 50%;" alt="Three Column Mid" mc:edit="ava140219_9_6">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                      <td height="10" style="max-height:10px;"></td>
+                    </tr>
+                  </table>
+                  <!-- ======= SECTION : MIDDLE 1=======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="12" style="max-width:12px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="25" style="max-height:25px;"></td>
+                    </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                    <!-- ======= SECTION : MIDDLE 2=======&gt; START -->
+                    <table width="90" style="max-width:90px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                        <!--   Image   -- START -->
+                        <tr>
+                            <td align="center" style="line-height:0px;">
+                            <img src="../static/images/welcome_gift/addiction.jpg" width="90" style="max-width: 90px; display:block; line-height:0px; font-size:0px; border:0px;border-radius: 50%;" alt="Three Column Mid" mc:edit="ava140219_9_6">
+                            </td>
+                        </tr>
+                        <!--   Image   --- END --->
+                        <tr>
+                            <td height="10" style="max-height:10px;"></td>
+                        </tr>
+                    </table>
+                    <!-- ======= SECTION : MIDDLE 2=======&gt;  END  -->
+                    <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                    <table width="12" style="max-width:12px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td height="25" style="max-height:25px;"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                    <!-- ======= SECTION : RIGHT 1=======&gt; START -->
+                    <table width="90" style="max-width:90px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                        <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/grief.jpeg" width="90" style="max-width: 90px; display:block; line-height:0px; font-size:0px; border:0px;border-radius:50%" alt="Three Column Right" mc:edit="ava140219_9_10">
+                        </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                        <td height="10" style="max-height:10px;"></td>
+                    </tr>
+                  </table>
+                  <!-- ======= SECTION : RIGHT 1=======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="12" style="max-width:12px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="25" style="max-height:25px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : RIGHT 2=======&gt; START -->
+                  <table width="90" style="max-width:90px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/phobia.jpeg" width="90" style="max-width: 90px; display:block; line-height:0px; font-size:0px; border:0px;border-radius:50%" alt="Three Column Right" mc:edit="ava140219_9_10">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                      <td height="10" style="max-height:10px;"></td>
+                    </tr>
+                  </table>
+                  <!-- ======= SECTION : RIGHT 2=======&gt;  END  -->
+                </td>
+              </tr>
+              <!--   Content   --- END --->
+              <tr>
+                <td height="25" style="max-height:25px;"></td>
+              </tr>
+              <!--   Button   -- START -->
+              <tr>
+                <td text-align="center">
+                  <table border="0" text-align="center" cellpadding="0" cellspacing="0" class="textbutton">
+                    <tr>
+                      <td class="ava_button_link" bgcolor="#3c4876" height="46" style="max-height:46px;font-family:Quicksand, Arial, sans-serif;font-size:14px;font-weight:600;color:#FFFFFF;letter-spacing:1px;border:0px solid #ffffff;padding-left:25px;padding-right:25px;border-radius:0px;" align="center" mc:edit="ava140219_11_3">
+                        <a href="http://virtualemdr.com/" target="_blank">LEARN MORE</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--   Button   --- END --->
+              <tr>
+                <td height="60" style="max-height:60px;"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>                       
+      </table>
+      <!-- ========================================= -->
+      <!--               Three Column                -->
+      <!-- ===========================&gt; ENDING &lt;==== -->
+  
+    <!-- ====&gt; STARTING &lt;========================= -->
+    <!--                   Brand                   -->
+    <!-- ========================================= -->
+    <table class="full" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Brand" mc:variant="Brand">
+        <tr>
+            <td align="center" class="module17_bg">
+            <table class="outer_tab" width="600" style="max-width:600px;background-color:#eaeaea;" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                <td height="40" style="max-height:40px;"></td>
+                </tr>
+                <!--   Title   -- START -->
+                <tr>
+                <td align="center" style="font-family:Quicksand, Arial, sans-serif;font-size:24px;font-weight:700;color:#3c4876;letter-spacing:.5px;line-height:32px;" mc:edit="ava140219_17_1">
+                    Some Success Stories
+                </td>
+                </tr>
+                <!--   Title   --- END --->
+                <tr>
+                <td height="30" style="max-height:30px;"></td>
+                </tr>
+                <tr>
+                <td>
+                    <table width="4" style="max-width:4px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="8" style="max-height:8px;"></td>
+                    </tr>
+                    </table>           
+                    <!-- ======= SECTION : LEFT =======&gt; START -->
+                    <table width="292" style="max-width:292px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="left">
+                        <table align="left" class="outer_tab" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                            <td align="center">
+                                <table border="0" align="center" cellpadding="0" cellspacing="0" class="textbutton">
+                                <!--   Image   -- START -->
+                                <tr>
+                                    <td align="center" style="line-height:0px;">
+                                    <img src="../static/images/welcome_gift/LX 144x144.jpg" width="142" style="max-width: 142px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Brand Left" mc:edit="ava140219_17_2">
+                                    </td>                                                       <td style="padding-left:8px;"></td>                            
+                                    <td align="center" style="line-height:0px;">
+                                    <img src="../static/images/welcome_gift/Sophie 144x144.jpg" width="142" style="max-width: 142px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Brand Mid Left" mc:edit="ava140219_17_3">
+                                    </td>
+                                </tr>
+                                <!--   Image   --- END --->
+                                </table>
+                            </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                    <!-- ======= SECTION : LEFT =======&gt;  END  -->
+                    <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                    <table width="8" style="max-width:8px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="8" style="max-height:8px;"></td>
+                    </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                    <!-- ======= SECTION : RIGHT =======&gt; START -->
+                    <table width="292" style="max-width:292px;" align="right" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="left">
+                        <table align="left" class="outer_tab" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                            <td align="center">
+                                <table border="0" align="center" cellpadding="0" cellspacing="0" class="textbutton">
+                                <!--   Image   -- START -->
+                                <tr>
+                                    <td align="center" style="line-height:0px;">
+                                    <img src="../static/images/welcome_gift/Patricia 144x144.jpg" width="142" style="max-width: 142px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Brand Mid Right" mc:edit="ava140219_17_4">
+                                    </td>                                						<td style="padding-left:8px;"></td>
+                                    <td align="center" style="line-height:0px;">
+                                    <img src="../static/images/welcome_gift/Sarah 144x144.png" width="142" style="max-width: 142px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Brand Right" mc:edit="ava140219_17_5">
+                                    </td>
+                                </tr>
+                                <!--   Image   --- END --->
+                                </table>
+                            </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                    <!-- ======= SECTION : RIGHT =======&gt;  END  -->
+                    <table width="4" style="max-width:4px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="8" style="max-height:8px;"></td>
+                    </tr>
+                    </table>   
+                </td>
+                </tr>
+                <tr>
+                <td height="30" style="max-height:30px;"></td>
+                </tr>
+                <!--   Button   -- START -->
+                <tr>
+                <td text-align="center">
+                    <table border="0" text-align="center" cellpadding="0" cellspacing="0" class="textbutton">
+                    <tr>
+                        <td class="ava_button_link" height="46" style="background-color:#3c4876;max-height:46px;font-family:Quicksand, Arial, sans-serif;font-size:14px;font-weight:600;color:#FFFFFF;letter-spacing:1px;border:0px solid #ffffff;padding-left:25px;padding-right:25px;border-radius:0px;" align="center" mc:edit="ava140219_11_3">
+                        <a href="http://virtualemdr.com/successstories" target="_blank">READ MORE SUCCESS STORIES</a>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                <!--   Button   --- END --->
+                <tr>
+                <td height="60" style="max-height:60px;"></td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+        </table>
+        <!-- ========================================= -->
+        <!--                   Brand                   -->
+        <!-- ===========================&gt; ENDING &lt;==== -->
+
+      <!-- ====&gt; STARTING &lt;========================= -->
+    <!--                   Quote                   -->
+    <!-- ========================================= -->
+    <table class="full" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Quote" mc:variant="Quote">
+        <tr>
+          <td align="center" class="module16_bg">
+            <table class="inner_tab" width="600" style="max-width:600px;background-image:url(../static/images/welcome_gift/quotebg_600.jpg);" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="40" style="max-height:40px;"></td>
+              </tr>
+              <tr>
+                <td>             
+                  <!-- ======= SECTION : LEFT =======&gt; START -->
+                  <table width="50" style="max-width:50px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/quote_left_23.png" width="35" style="max-width: 35px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Quote Left" mc:edit="ava140219_16_1">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                  </table>
+                  <!-- ======= SECTION : LEFT =======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="15" style="max-width:15px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="45" style="max-height:45px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : MIDDLE =======&gt; START -->
+                  <table width="465" style="max-width:465px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Title   -- START -->
+                    <tr>
+                      <td align="center" style="font-family:Raleway, Arial, sans-serif;font-size:18px;font-weight:500;color:#ffffff;letter-spacing:.5px;line-height:25px;" mc:edit="ava140219_16_2">
+                        Never believe that a few caring people cannot change the world. For indeed that's all who ever have.
+                      </td>
+                    </tr>
+                    <!--   Title   --- END --->
+                    <tr>
+                      <td height="8" style="max-height:8px;"></td>
+                    </tr>
+                    <!--   Content   -- START -->
+                    <tr>
+                      <td dir="rtl" style="font-family:'open sans', Arial, sans-serif;font-size:16px;font-style:italic;color:#ffffff;letter-spacing:.5px;line-height:20px;" mc:edit="ava140219_16_3">
+                        Margaret Mead -
+                      </td>
+                    </tr>
+                    <!--   Content   --- END --->
+                  </table>
+                  <!-- ======= SECTION : MIDDLE =======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="15" style="max-width:15px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="1" style="max-height:1px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : RIGHT =======&gt; START -->
+                  <table width="50" style="max-width:50px;" align="right" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="45" style="max-height:45px;"></td>
+                    </tr>
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/quote_right_24.png" width="35" style="max-width: 35px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Quote Right" mc:edit="ava140219_16_4">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                  </table>
+                  <!-- ======= SECTION : RIGHT =======&gt;  END  -->
+                </td>
+              </tr>
+              <tr>
+                <td height="30" style="max-height:30px;"></td>
+              </tr>
+              <!--   Button   -- START -->
+              <tr>
+                <td align="center">
+                  <table border="0" align="center" cellpadding="0" cellspacing="0" class="textbutton">
+                    <tr>
+                      <td class="ava_button_link" background-color="#858dac" height="38" style="max-height:44px;font-family:raleway, Arial, sans-serif;font-size:14px;font-weight:400;color:#FFFFFF;letter-spacing:1px;border:2px solid #ffffff;padding-left:25px;padding-right:25px;border-radius:0px;" align="center" mc:edit="ava140219_2_4">
+                        <a href="https://virtualemdr.com/gift">CLICK HERE TO SEND ANOTHER PRICELESS GIFT</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--   Button   --- END --->
+              <tr>
+                <td height="40" style="max-height:40px;"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- ========================================= -->
+      <!--                   Quote                   -->
+      <!-- ===========================&gt; ENDING &lt;==== -->
+
+      <table width="600" style="max-width:600px;">
+        <tr>
+            <td height="5" style="max-height:5px;"></td>
+        </tr>
+      </table>
+
+{% endblock %}
