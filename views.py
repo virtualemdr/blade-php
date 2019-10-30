@@ -60,7 +60,7 @@ def welcome_gift_sender(request):
     return render(request, "welcome_gift_sender.html")
 
 def welcome_access_code(request):
-    return render(request, "welcome_access.html")
+    return render(request, "welcome_access_code.html")
 
 def welcome_first_responder(request):
     return render(request, "welcome_first_responder.html")

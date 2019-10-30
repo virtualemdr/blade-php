@@ -1,12 +1,466 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Virtual EMDR</title>
-</head>
-<body>
-    "WELCOME COACHING"
-</body>
-</html>
+{% extends "blade_base.html" %}
+
+{% block title %}Welcome to Virtual EMDR!{% endblock %}
+
+{% block content %}
+
+<!-- ====&gt; STARTING &lt;========================= -->
+    <!--                  Header                   -->
+    <!-- ========================================= -->
+    <table class="full" background-color="#FFFFFF" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Header" mc:variant="Header">
+      <tr>
+        <td valign="top" style="background-size:cover;background-position:center;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="600" style="max-width:600px;font-size:0px;background:#858dac;" align="center">
+                <table class="inner_tab" width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="30" style="max-height:30px;"></td>
+                  </tr>
+                  <!--   Title   -- START -->
+                  <tr>
+                      <td align="left" style="font-family:raleway, Arial, sans-serif;font-size:24px;font-weight:900;color:#ffffff;letter-spacing:0.5px;line-height:30px;" mc:edit="ava140219_2_1">
+                          Welcome to living free from emotional pain! 
+                      </td>
+                  </tr>
+                  <!--   Title   --- END --->                    
+                  <tr>
+                      <td height="24" style="max-height:24px;"></td>
+                  </tr>
+                  <!--   Image   -- START -->
+                  <tr>
+                      <td align="center" style="line-height:0px;">
+                      <img src="../static/images/welcome_regular/welcome_header_1.jpeg" alt="img" width="100%" style="display:block; line-height:0px; font-size:0px; border:1px solid #ffffff;" mc:edit="ava140219_10_2">
+                      </td>
+                  </tr>
+                  <!--   Image   --- END --->
+                  <tr>
+                      <td height="24" style="max-height:24px;"></td>
+                  </tr>          
+                  
+                  <!--   Content   -- START -->
+                  <tr>
+                    <td align="left" style="font-family:'open sans', Arial, sans-serif;font-size:16px;color:#ffffff;line-height:22px;" mc:edit="ava140219_2_3">
+                      Congratulations! You have taken an important step to living pain-free.
+                      <p>Today, you are beginning on your journey to successfully eliminate emotional pain from your life, once and for all.</p>
+                      <p>To schedule your 60-minute Coaching session, pls <a href="mailto: customerservice@virtualemdr.com" style="color:#3c4876;" target="_blank>">send us an email </a> with your preferred dates and times (list 3 options).</p>                    
+                     </td>
+                  </tr>
+                  <!--   Content   --- END --->
+                  <tr>
+                    <td height="20" style="max-height:20px;"></td>
+                  </tr>
+                  <!--   Button   -- START -->
+                  <tr>
+                    <td align="center">
+                      <table border="0" align="left" cellpadding="0" cellspacing="0" class="textbutton">
+                        <tr>
+                          <td class="ava_button_link" background-color="#858dac" height="38" style="max-height:44px;font-family:raleway, Arial, sans-serif;font-size:14px;font-weight:400;color:#FFFFFF;letter-spacing:1px;border:2px solid #ffffff;padding-left:25px;padding-right:25px;border-radius:0px;" align="center" mc:edit="ava140219_2_4">
+                            <a href="{route('profile').#sessions}">CLICK HERE TO LOG IN</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!--   Button   --- END --->
+                  <tr>
+                    <td height="10" style="max-height:10px;"></td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-family:'open sans', Arial, sans-serif;font-style:italic;font-size:14px;color:#ffffff;line-height:18px;" mc:edit="ava140219_2_3">
+                      <p>Save this email for future reference. It contains your subscription information, and pointers for maximizing your Virtual EMDR experience.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="40" style="max-height:40px;"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- ========================================= -->
+    <!--                  Header                   -->
+    <!-- ===========================&gt; ENDING &lt;==== -->
+
+<!-- ====&gt; STARTING &lt;========================= -->
+    <!--               Two Sections                -->
+    <!-- ========================================= -->
+    <table class="full" style="background-color:#ffffff;" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Two Sections" mc:variant="Two Sections">
+      <tr>
+        <td height="10" style="max-height:10px;"></td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table class="inner_tab" width="100%" style="max-width:600px; border:#3c4876 1px solid;border-radius:10px" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td height="30" style="max-height:30px;"></td>
+            </tr>
+            <!--   Title   -- START -->
+            <tr>
+              <td align="center" style="font-family:Quicksand, Arial, sans-serif;font-size:24px;font-weight:700;color:#3c4876;line-height:28px;" mc:edit="ava140219_7_1">
+                Your Subscription
+              </td>
+            </tr>
+            <!--   Title   --- END --->
+            <tr> 
+              <td>               
+                <!-- ======= SECTION : MIDDLE =======&gt; START -->
+                <table width="100%" style="max-width:550px;" align="center" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="background-color:#ffffff; text-align:center;">
+                      <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="12" style="max-height:12px;"></td>
+                        </tr>
+                        <!--   Content   -- START -->
+                        
+                        <tr>
+                          <td align="left" style="font-family:'open sans', Arial, sans-serif;font-size:14px;padding-left:5px;padding-right:5px;color:#5b668f;line-height:20px;">
+                            <table align="left" class="inner_tab" border="0" cellspacing="0" cellpadding="0">                        
+                              <tr>
+                                <td>Log-in email </td>
+                                <td>: {$user->emailXXXX}</td>
+                              </tr>
+                              <tr>
+                                <td>Subscription </td>
+                                <td>: {$product->name}</td>
+                              </tr>
+                              <tr>
+                                <td>Free Trial </td>
+                                <td>: 7 days</td>
+                              </tr>
+                              <tr>
+                                <td>First charge </td>
+                                <td>: {amountXXXX} on {dateXXXX}</td>
+                              </tr>
+                              <tr>
+                                <td>Renews at </td>
+                                <td>: {renewal amountXXXX} every month</td>
+                              </tr>
+                              <tr>
+                                <td>Auto-renew</td>
+                                <td>: On</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!--   Content   --- END --->
+                        <tr>
+                          <td align="left" style="font-family:'open sans', Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;color:#5b668f;">
+                          You can manage your settings in User Profile
+                        </tr>
+                        <tr>
+                          <td height="8" style="max-height:8px;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!-- ======= SECTION : LEFT =======&gt;  END  -->
+              </td>
+            </tr>
+            <tr>
+              <td height="20" style="max-height:20px;"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="20" style="max-height:20px;"></td>
+      </tr>
+    </table>
+    <!-- ========================================= -->
+    <!--               Two Sections                -->
+    <!-- ===========================&gt; ENDING &lt;==== -->
+
+    <!-- ====&gt; STARTING &lt;========================= -->
+    <!--               Three Column                -->
+    <!-- ========================================= -->
+    <table class="full" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Three Column" mc:variant="Three Column">
+        <tr>
+          <td align="center">
+            <table class="inner_tab" width="600" style="max-width:600px;background-color:#eaeaea" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="40" style="max-height:40px;"></td>
+              </tr>
+              <!--   Title   -- START -->
+              <tr>
+                <td align="center" style="font-family:Quicksand, Arial, sans-serif;font-size:24px;font-weight:700;color:#3c4876;line-height:42px;" mc:edit="ava140219_9_1">
+                  Getting Started
+                </td>
+              </tr>
+              <!--   Title   --- END --->
+              <tr>
+                <td height="20" style="max-height:20px;"></td>
+              </tr>
+              <tr>
+                <td>
+                  <table width="10" style="max-width:10px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="8" style="max-height:8px;"></td>
+                    </tr>
+                  </table>               
+                  <!-- ======= SECTION : LEFT =======&gt; START -->
+                  <table width="180" style="max-width:180px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <a href="https://www.youtube.com/embed/Hv1aD93vEm4" target="_blank">
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_regular/EMDR video still 180.png" width="180" style="max-width: 180px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Three Column Left" mc:edit="ava140219_9_2">
+                      </td>
+                    </a>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                      <td height="15" style="max-height:15px;"></td>
+                    </tr>
+                    <!--   Title   -- START -->
+                    <tr>   
+                      <td dir="ltr" style="font-family:Quicksand, Arial, sans-serif;font-size:18px;font-weight:500;color:#273462;line-height:27px;" mc:edit="ava140219_9_4">
+                        New to EMDR?
+                      </td>                    
+                    </tr>
+                    <!--   Title   --- END --->
+                    <tr>
+                      <td height="10" style="max-height:10px;"></td>
+                    </tr>
+                    <!--   Content   -- START -->
+                    <tr>                     
+                      <td dir="ltr" style="font-family:'open sans', Arial, sans-serif;font-size:14px;color:#5b668f;line-height:21px;" mc:edit="ava140219_9_5">
+                        Watch <a href="https://www.youtube.com/embed/Hv1aD93vEm4" target="_blank">this video</a> for an overview of the EMDR process
+                      </td>
+                    </tr>
+                    <!--   Content   --- END --->
+                  </table>
+                  <!-- ======= SECTION : LEFT =======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="20" style="max-width:20px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="25" style="max-height:25px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : MIDDLE =======&gt; START -->
+                  <table width="180" style="max-width:180px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_regular/sessionstart 180x140.png" width="180" style="max-width: 180px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Three Column Mid" mc:edit="ava140219_9_6">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                      <td height="15" style="max-height:15px;"></td>
+                    </tr>
+                    <!--   Title   -- START -->
+                    <tr>
+                      <td dir="ltr" style="font-family:Quicksand, Arial, sans-serif;font-size:18px;font-weight:500;color:#273462;line-height:27px;" mc:edit="ava140219_9_4">
+                        Launch Program
+                      </td>
+                    </tr>
+                    <!--   Title   --- END --->
+                    <tr>
+                      <td height="10" style="max-height:10px;"></td>
+                    </tr>
+                    <!--   Content   -- START -->
+                    <tr>
+                      <td dir="ltr" style="font-family:'open sans', Arial, sans-serif;font-size:14px;color:#5b668f;line-height:21px;" mc:edit="ava140219_9_5">
+                        Log in and start a Virtual EMDR session. The program is easy to follow.
+                      </td>
+                    </tr>
+                    <!--   Content   --- END --->
+                  </table>
+                  <!-- ======= SECTION : MIDDLE =======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="20" style="max-width:20px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="25" style="max-height:25px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : RIGHT =======&gt; START -->
+                  <table width="180" style="max-width:180px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_regular/coaching 180x140.png" width="180" style="max-width: 180px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Three Column Right" mc:edit="ava140219_9_10">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                    <tr>
+                      <td height="15" style="max-height:15px;"></td>
+                    </tr>
+                    <!--   Title   -- START -->
+                    <tr>
+                      <a href="https://virtualemdr.com/pricing#coaching">
+                      <td dir="ltr" style="font-family:Quicksand, Arial, sans-serif;font-size:18px;font-weight:500;color:#273462;line-height:27px;" mc:edit="ava140219_9_4">
+                        Coaching
+                      </td>
+                      </a>
+                    </tr>
+                    <!--   Title   --- END --->
+                    <tr>
+                      <td height="10" style="max-height:10px;"></td>
+                    </tr>
+                    <!--   Content   -- START -->
+                    <tr>
+                      <td dir="ltr" style="font-family:'open sans', Arial, sans-serif;font-size:14px;color:#5b668f;line-height:21px;" mc:edit="ava140219_9_5">
+                        To schedule your Coaching session, pls <a href="mailto: customerservice@virtualemdr.com" target="_blank">email us</a> with 3 preferred dates and times
+                      </td>
+                    </tr>
+                    <!--   Content   --- END --->
+                  </table>
+                  <!-- ======= SECTION : RIGHT =======&gt;  END  -->
+                  <table width="10" style="max-width:10px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="8" style="max-height:8px;"></td>
+                    </tr>            
+                  </table>                
+                </td>
+              </tr> 
+              <tr>
+                <td height="15" style="max-height:15px;"></td>
+              </tr>
+              <tr>
+                <td dir="ltr" style="text-align:center;font-family:Quicksand, Arial, sans-serif;font-size:18px;font-weight:500;color:#273462;" mc:edit="ava140219_9_4">
+                  Also check out:
+                </td>
+              </tr>
+              <tr>
+                <td dir="ltr" style="text-align:center;font-family:'open sans', Arial, sans-serif;font-size:14px;color:#5b668f;" mc:edit="ava140219_9_5">
+                  <p><a href="https://virtualemdr.com/successstories">Success Stories: Inspirational stories from Virtual EMDR users</a></p>
+                  <p><a href="https://virtualemdr.com/resources">Resources: Free collection of articles and self-assessment tests</a></p>
+                </td>
+              </tr>
+              <tr>
+                <td height="40" style="max-height:40px;"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- ========================================= -->
+      <!--               Three Column                -->
+      <!-- ===========================&gt; ENDING &lt;==== -->
+
+      <table width="600" style="max-width:600px;">
+        <tr>
+          <td height="5" style="max-height:5px;"></td>
+        </tr>
+      </table>
+
+     <!-- ====&gt; STARTING &lt;========================= -->
+    <!--                   Quote                   -->
+    <!-- ========================================= -->
+    <table class="full" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="Quote" mc:variant="Quote">
+        <tr>
+          <td align="center">
+            <table class="inner_tab" width="600" style="max-width:600px;background-image:url(../static/images/welcome_gift/quotebg_600.jpg);" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="40" style="max-height:40px;"></td>
+              </tr>
+              <tr>
+                <td>             
+                  <!-- ======= SECTION : LEFT =======&gt; START -->
+                  <table width="80" style="max-width:80px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/quote_left_23.png" width="35" style="max-width: 35px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Quote Left" mc:edit="ava140219_16_1">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                  </table>
+                  <!-- ======= SECTION : LEFT =======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="15" style="max-width:15px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="45" style="max-height:45px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : MIDDLE =======&gt; START -->
+                  <table width="400" style="max-width:400px;" align="left" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <!--   Title   -- START -->
+                    <tr>
+                      <td align="center" style="font-family:Raleway, Arial, sans-serif;font-size:18px;font-weight:500;color:#ffffff;letter-spacing:.5px;line-height:18px;" mc:edit="ava140219_16_2">
+                        Healing is an Art.
+                        <p>It takes Time.</p>
+                        <p>It takes Patience.</p>
+                        <p>It take LOVE.</p>
+                      </td>
+                    </tr>
+                    <!--   Title   --- END --->
+                    <!--<tr>
+                      <td height="8" style="max-height:8px;"></td>
+                    </tr>-->
+                    <!--   Content   -- START -->
+                    <!--<tr>
+                      <td dir="rtl" style="font-family:'open sans', Arial, sans-serif;font-size:16px;font-style:italic;color:#ffffff;letter-spacing:.5px;line-height:20px;" mc:edit="ava140219_16_3">
+                        Pavana Reddy-
+                      </td>
+                    </tr>-->
+                    <!--   Content   --- END --->
+                  </table>
+                  <!-- ======= SECTION : MIDDLE =======&gt;  END  -->
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <table width="15" style="max-width:15px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="1" style="max-height:1px;"></td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td><td><![endif]-->
+                  <!-- ======= SECTION : RIGHT =======&gt; START -->
+                  <table width="80" style="max-width:80px;" align="right" class="outer_tab" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="45" style="max-height:45px;"></td>
+                    </tr>
+                    <!--   Image   -- START -->
+                    <tr>
+                      <td align="center" style="line-height:0px;">
+                        <img src="../static/images/welcome_gift/quote_right_24.png" width="35" style="max-width: 35px; display:block; line-height:0px; font-size:0px; border:0px;" alt="Quote Right" mc:edit="ava140219_16_4">
+                      </td>
+                    </tr>
+                    <!--   Image   --- END --->
+                  </table>
+                  <!-- ======= SECTION : RIGHT =======&gt;  END  -->
+                </td>
+              </tr>
+              <tr>
+                <td height="30" style="max-height:30px;"></td>
+              </tr>
+              <!--   Button   -- START -->
+              <tr>
+                <td align="center">
+                  <table border="0" align="center" cellpadding="0" cellspacing="0" class="textbutton">
+                    <tr>
+                      <td class="ava_button_link" background-color="#858dac" height="38" style="max-height:44px;font-family:raleway, Arial, sans-serif;font-size:14px;font-weight:400;color:#FFFFFF;letter-spacing:1px;border:2px solid #ffffff;padding-left:25px;padding-right:25px;border-radius:0px;" align="center" mc:edit="ava140219_2_4">
+                        <a href="{route('profile').#sessions}">CLICK HERE TO START YOUR JOURNEY OF SELF-LOVE</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--   Button   --- END --->
+              <tr>
+                <td height="40" style="max-height:40px;"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- ========================================= -->
+      <!--                   Quote                   -->
+      <!-- ===========================&gt; ENDING &lt;==== -->
+
+    <table width="600" style="max-width:600px;">
+      <tr>
+        <td height="5" style="max-height:5px;"></td>
+      </tr>
+    </table>
+
+{% endblock %}
